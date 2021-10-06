@@ -1,0 +1,10 @@
+{
+    "iss": "did:web:yourdomain.here#owner",
+    "sub": "123456789",
+    "groups": [
+        "admin",
+        "plex"
+    ],
+    "zoneinfo": "America/New York",
+    "data": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Accumsan lacus vel facilisis volutpat est velit egestas. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Tincidunt id aliquet risus feugiat in. Amet consectetur adipiscing elit ut. Etiam tempor orci eu lobortis elementum nibh tellus molestie nunc. Euismod elementum nisi quis eleifend quam adipiscing. Sit amet massa vitae tortor condimentum lacinia quis. Urna molestie at elementum eu facilisis sed. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Aliquam etiam erat velit scelerisque. Condimentum mattis pellentesque id nibh tortor. Metus dictum at tempor commodo ullamcorper a lacus vestibulum sed. Augue ut lectus arcu bibendum at varius. Et magnis dis parturient montes nascetur. Eget velit aliquet sagittis id consectetur purus. Facilisi morbi tempus iaculis urna id."
+}

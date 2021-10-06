@@ -1,3 +1,6 @@
 base58
 cryptography
+django==3.2
+django-environ
 PyJWT
+requests

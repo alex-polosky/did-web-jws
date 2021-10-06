@@ -57,9 +57,9 @@ def write_dict(obj: dict, path: str):
     with open(path, 'w') as f:
         json.dump(obj, f, indent=4)
 
-def main():
+def main(arg_list=None):
     print('Generate public/private Ed25519 key pair and DID document.')
-    args = parse_args()
+    args = parse_args(arg_list)
     output_keyfile = (
         args.output_keyfile
         or input('Enter file in which to save the key and DID document: '))

@@ -10,6 +10,16 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Django",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\webapp\\manage.py",
+            "args": [
+                "runserver"
+            ],
+            "django": true
         }
     ]
 }

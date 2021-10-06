@@ -18,7 +18,7 @@ def parse_args(arg_list=None):
 
     return parser.parse_args(arg_list)
 
-def main():
+def main(arg_list=None):
     args = parse_args()
     identity_file = args.identity_file
     output_file = args.output_file
@@ -34,7 +34,8 @@ def main():
     if output_file:
         with open(output_file, 'w') as f:
             f.write(jwt_text)
-    sys.stdout.write(jwt_text)  # Don't output newline
+    else:
+        sys.stdout.write(jwt_text)  # Don't output newline
 
 if __name__ == '__main__':
     main()

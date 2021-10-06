@@ -22,7 +22,7 @@ An exercise in creating DID documents and interacting with them through JWT toke
   - Copy `[output_file].did.json` into `webapp/did.json`
 - Run 01
   - Create a sample payload; one is provided at ./data/payload.json
-  - `python scripts/01-create-jwt.py -i [output_file] -o [payload.jwt] data/payload.json`
+  - `python scripts/01-create-jwt.py -i [payload.json] -o [payload.jwt] data/payload.json`
 - Run 02
   - `python scripts/02-validate.py -f [payload.jwt] did:web:localhost:8000`
   - If everything was succesful, the command line should show: `Token validated successfully`

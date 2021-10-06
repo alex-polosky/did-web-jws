@@ -11,9 +11,9 @@ An exercise in creating DID documents and interacting with them through JWT toke
 - Copy `./.env.template` to `./.env`
 - Generate `SECRET_KEY` for the `.env` file (recommend `python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"` via [this SO post](https://stackoverflow.com/questions/54498123/django-secret-key-generation))
 - Run the following commands to setup the Django server
-  - `./manage.py migrate` to setup the database
-  - `./manage.py createsuperuser` to create the superuser for Django
-  - `./manage.py runserver` to start the Django server
+  - `manage.py migrate` to setup the database
+  - `manage.py createsuperuser` to create the superuser for Django
+  - `manage.py runserver` to start the Django server
 
 ## Running
 
